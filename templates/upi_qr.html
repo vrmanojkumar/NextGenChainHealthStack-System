@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UPI Payment</title>
+    <style>
+      body {
+        background: black;
+        text-align: center;
+        color: white;
+        padding: 30px;
+        font-family: Arial;
+      }
+      img {
+        width: 330px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>PhonePe</h2>
+    <p>Scan & Pay Using PhonePe App</p>
+
+    <img src="{% static 'qr/qr.jpeg' %}" alt="UPI QR Code" />
+
+    <h3 style="margin-top: 20px">V R Manoj Kumar</h3>
+  </body>
+</html>
